@@ -13,7 +13,7 @@ func cmdAppConfig() *cobra.Command {
 		Short: "aws appconfig",
 		Long:  "aws appconfig command",
 		Run: func(cmd *cobra.Command, args []string) {
-			fmt.Println("Say helloooooooooo")
+			fmt.Println("Say hello. This is my first go library")
 		},
 	}
 
