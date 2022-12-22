@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func cmdAppConfig() *cobra.Command {
+func CmdAppConfig() *cobra.Command {
 	// o := &Options{}
 	cmd := &cobra.Command{
 		Use:   "appconfig",
